@@ -16,7 +16,7 @@ const fs = require("fs");
 function expensiveOperation() {
   let sum = 0;
   for (let i = 0; i < 1e8; i++) {
-    sum += Math.sqrt(i);
+    sum += i;
   }
   console.log("Expensive operation completed.");
 }
